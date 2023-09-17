@@ -18,7 +18,7 @@ h1 {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 50rem;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -216,4 +216,19 @@ h1 {
 .slider-container__nav-item:active .slider-container__checkbox {
   background-color: white;
   border-color: rgb(37, 40, 42);
+}
+
+@media (max-width: 768px) {
+  .slider-container__menu {
+    flex-direction: column-reverse;
+    height: max-content;
+  }
+
+  .slider-container__captions {
+    width: 100%;
+  }
+
+  .container {
+    padding: 0;
+  }
 }
