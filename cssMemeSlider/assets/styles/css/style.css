@@ -17,8 +17,13 @@ h1 {
   color: black;
 }
 
+.slider-container__image img {
+  height: 50vh;
+  width: 50vw;
+}
+
 .container {
-  max-width: 50rem;
+  max-width: 80vw;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -151,6 +156,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   height: 5rem;
+  width: 50vw;
 }
 
 #radio1:checked~.slider-container__menu .slider-container__captions-wrapper {
@@ -176,7 +182,6 @@ h1 {
   background: rgb(37, 40, 42);
 }
 
-
 .slider-container__captions {
   width: 65%;
   overflow: hidden;
@@ -195,7 +200,6 @@ h1 {
   font-weight: 400;
   font-size: 1.6rem;
 }
-
 
 .slider-container__checkbox {
   display: inline-flex;
